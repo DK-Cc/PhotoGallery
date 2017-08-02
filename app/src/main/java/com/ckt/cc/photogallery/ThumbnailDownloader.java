@@ -34,7 +34,6 @@ public class ThumbnailDownloader<T> extends HandlerThread {
         mThumbnailDownloadListener = listener;
     }
 
-
     public ThumbnailDownloader(Handler responseHandler) {
         super(TAG);
         mResponseHandler = responseHandler;
